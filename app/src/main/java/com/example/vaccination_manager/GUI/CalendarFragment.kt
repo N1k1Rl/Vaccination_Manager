@@ -6,12 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.CalendarView
+import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import com.example.vaccination_manager.R
 import java.text.SimpleDateFormat
 import java.util.*
 
-class CalendarFragment : Fragment() {
+class CalendarFragment : DialogFragment() {
 
     private lateinit var calendarView: CalendarView
     private lateinit var setDateButton: Button
